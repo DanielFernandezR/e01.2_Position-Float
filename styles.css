@@ -7,29 +7,54 @@ body {
 
 header {
     position: relative;
+    background-color: #9acd32;
+    height: 100px;
+    top: 20px;
 }
 
 header img {
     position: absolute;
+    width: 200px;
+    top: 20px;
+    left: 40px;
 }
 
 ul#menu {
     position: absolute;
+    left: 300px;
+    top: 10px;
 }
 
 ul#menu li {
     background-color: black;
     color: white;
     font-size: 16px;
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 7px
 }
 
-article {
+div {
     position: relative;
     border: 2px solid green;
+    width: 1000px;
+    max-width: 90%;
+    top: 80px;
+    left: 40px;
 }
 
-article h1 {
+div>h1 {
     position: absolute;
     color: white;
     font-size: 2em;
+    bottom: 50px;
+    left: 450px;
+}
+
+
+div>img[id="scissors"] {
+    position: absolute;
+    left: 310px;
+    z-index: -1;
 }
